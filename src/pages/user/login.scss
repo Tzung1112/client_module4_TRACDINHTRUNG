@@ -1,0 +1,113 @@
+$color_1: #fff;
+$color_2: #f0094a;
+$font-family_1: 'Poppins', sans-serif;
+$font-family_2: 'Lato', sans-serif;
+body{
+    background-image: url("/images/home/backgrout/BLACK-CRUMPLED-BACKGROUND-REPEATABLE-TILE-1800-PIXELS-WIDE.jpg");
+}
+.form-login {
+    /* Thay đổi tên lớp này từ .contact-form thành .form-login */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 450px;
+    padding: 80px 40px;
+    background: rgba(0, 0, 0, 0.5);
+
+    h2 {
+        margin: 0;
+        padding: 0 0 20px;
+        color: $color_1;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: $color_1;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    input[type=text] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: $color_1;
+        font-size: 16px;
+    }
+
+    input[type=password] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: $color_1;
+        font-size: 16px;
+    }
+
+    a {
+        color: $color_1;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: 190px;
+}
+
+input[type=checkbox] {
+    width: 20%;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: $color_1;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: $font-family_2;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+.btn-4 {
+    width: 130px;
+    height: 50px;
+    line-height: 42px;
+    font-size: 20px;
+    padding: 0;
+    border: none;
+    background: rgb(255, 27, 0);
+    background: linear-gradient(0deg, #ff9933 0%, #ff3300 50%);
+
+    &:hover {
+        color: $color_2;
+        background: #e0e5ec;
+        box-shadow: none;
+    }
+}

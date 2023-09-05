@@ -1,0 +1,18 @@
+.home_page {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/images/home/backgrout/BLACK-CRUMPLED-BACKGROUND-REPEATABLE-TILE-1800-PIXELS-WIDE.jpg");
+    .home_page_content {
+        width: 100%;
+        max-width: 1440px;
+        height: 100%;
+        .content_body {
+            height: 100%;
+            margin-top: 80px;
+            
+        }
+    }
+}
